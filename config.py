@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "22928570"))
 API_HASH = environ.get("API_HASH", "60bb37bddecb48c27c3e86906a077603")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8058894606:AAED7Mc5Y6X1osZc-LggsSVt2GgSIV4YJQ0")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7557203139:AAHlImFQElA1z7xAJMngtY4WgFSB4X6InQc")
 
 PICS = (environ.get('PICS', 'https://vault.pictures/p/13ed3c2f80814677b90f7bfdee748955')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2010016480').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Jenifer_FilesStoreZ_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
